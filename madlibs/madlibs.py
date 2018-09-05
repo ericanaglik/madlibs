@@ -1,5 +1,5 @@
 global my_story
-my_story = "insert story noun bla verb noun"
+my_story = "I walk through the color jungle. I take out my adjective canteen. There's a adjective parrot with a adjective noun in his mouth right in front of me in the adjective trees! I gaze at his adjective noun. A sudden sound awakes me from my daydream! A panther verb's in front of my head! I verb his adjective breath. I remember I have a packet of noun that makes go into a deep slumber! I verb it away in front of the noun. Yes he's eating it! I verb away through the adjective jungle. I meet my parents at the tent. Phew; It’s been an exciting day in the jungle."
 
 
 
@@ -37,6 +37,11 @@ def search_and_replace(inStory):
             input_word = user_input("Enter a verb: ")
             my_storyLocal = replace_word(my_storyLocal, old_word, input_word)
             #print(my_storyLocal)
+        elif (my_storyLocal.find("adjective")!=-1):
+            old_word = "adjective"
+            input_word = user_input("Enter an adjective: ")
+            my_storyLocal = replace_word(my_storyLocal, old_word, input_word)
+            #print(my_storyLocal)
         else:
             testvar = False
             break
@@ -44,29 +49,11 @@ def search_and_replace(inStory):
             #my_story.find("end") = False
 
 
-'''    if my_story.find("noun"):
-        old_noun = "noun"
-        input_noun = user_input("Enter a noun: ")
-        my_story = replace_word(old_noun, input_noun)
-    if my_story.find("verb"):
-        old_word = "verb"
-        input_word = user_input("Enter a verb: ")
-        my_story = replace_word(old_word, input_word)
-    print(my_story)'''
-
-
-
-
-
-
-    #print(my_story)
-
-
 def test(inStory):
 
     inStory = search_and_replace(inStory)
     return (inStory)
 
-
+print(my_story)
 my_story = test(my_story)
 print(my_story)

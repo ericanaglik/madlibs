@@ -1,5 +1,5 @@
 <a href="http://tinypic.com?ref=mhrgjr" target="_blank"><img src="http://i63.tinypic.com/mhrgjr.png" border="0" alt="Image and video hosting by TinyPic"></a>
-First project of my Computer Science 1.1 class
+#### First project of my Computer Science 1.1 class
 
 ## About CS 1.1
 >This course covers the foundations of software development and programming fundamentals including variables, naming, data types, control flow, loops, lists/arrays, dictionaries, functions, parameters and arguments, classes, objects, and object-oriented programming (OOP) concepts including inheritance, polymorphism, and instance method overriding. Build projects that take user input, manipulate strings, use libraries, make requests to web servers, and parse JSON data. Master top-level concepts in the landscape of software development including writing pseudocode, technical project planning, programming language paradigms, common software architectures, web development patterns and frameworks.
